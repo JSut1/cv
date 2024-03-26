@@ -1,0 +1,54 @@
+.proyectos{
+    padding: 35px 0 25px 0;
+}
+
+.proyectos__contenedor{
+    width: 94vw;
+    margin: 0 auto;
+}
+
+.caja__proyectos{
+    margin-top: 2rem;
+}
+
+.descripcion--responsiva{
+    display: none;
+}
+
+.disenio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Diseño desktop*/
+@media screen and (min-width: 1024px){
+    .proyectos__contenedor{
+        width: 60vw;
+    }
+}
+
+/*Diseño para moviles*/
+@media screen and (max-width: 767px){
+    .disenio{
+        flex-direction: column;
+    }
+    .descripcion--responsiva{
+        display: block;
+    }
+    .titulo--responsivo{
+        font-family: var(--letra-titulos);
+        font-size: 1.6rem;
+        margin-bottom: .3rem;
+    }
+    .origen--responsivo{
+        font-family: var(--letra-titulos);
+        font-size: 1.2rem;
+        margin-bottom: .8rem; 
+        text-align: center;
+    }
+    .formato2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

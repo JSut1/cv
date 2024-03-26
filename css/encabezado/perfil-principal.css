@@ -1,0 +1,33 @@
+.perfil__contenedor{
+    display: flex;
+    place-content: center;
+    justify-content: space-evenly;
+}
+    
+.imagen{
+    display: flex;
+    align-items: center;
+}
+
+.perfil__foto{
+    width: 9rem;
+    height: 9rem;
+}
+
+/*Diseño para moviles*/
+@media screen and (max-width: 767px){
+    .perfil__contenedor{
+        display: block;
+    }
+    .imagen{
+        justify-content: center;
+    }
+}
+
+/*Diseño para desktop*/
+@media screen and (min-width: 1024px){
+    .perfil__foto{
+        width: 13rem;
+        height: 13rem;
+    }
+}

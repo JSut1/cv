@@ -1,0 +1,23 @@
+.contacto__contenedor--formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_padron{
+    margin-top: 1rem;
+    height: 2rem;
+    border: 1px solid var(--color-negro);
+    border-radius: 10px;
+    padding: .3rem;
+}
+
+.textarea{
+    height: 8rem;
+}
+
+/*Diseño desktop*/
+@media screen and (min-width: 1024px){
+    .contacto__contenedor--formulario{
+        width: 40%;
+    }
+}

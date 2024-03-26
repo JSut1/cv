@@ -1,0 +1,37 @@
+.encabezado__navegacion--contenido{
+    padding-top: 20px;
+}
+
+.encabezado__navegacion--principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Diseño para desktop*/
+@media screen and (min-width: 1024px){
+    .encabezado__contenedor--navegacion{
+        display: flex;
+        justify-content: space-between;
+    }    
+    .encabezado__navegacion--contenido{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        width: 60%;
+    }
+    .encabezado__navegacion--principal{
+        justify-content: space-between;
+    }
+}
+
+/*Diseño para moviles*/
+@media screen and (max-width: 767px){
+    .encabezado__navegacion--contenido{
+        padding-top: 10px;
+    }
+
+    .encabezado__navegacion--principal{
+        display: block;
+        text-align: center;
+    }
+}

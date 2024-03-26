@@ -1,0 +1,59 @@
+.descripcion--proyecto{
+    text-align: center;
+}
+
+.imagen__proyecto{
+    width: 20rem; 
+    height: 11rem;
+}
+
+.caja__proyectos--titulo{
+    font-family: var(--letra-titulos);
+    font-size: 1.8rem;
+    margin-bottom: .3rem;
+}
+
+.caja__proyectos--origen{
+    font-family: var(--letra-titulos);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.caja2{
+    display: none;
+}
+
+/*Diseño desktop*/
+@media screen and (min-width: 1024px){
+    .imagen__proyecto{
+        width: 28rem;
+        height: 13rem;
+    }
+    .caja__proyectos--titulo{
+        font-size: 2.2rem;
+    }
+    .caja__proyectos--origen{
+        font-size: 1.8rem;
+    }
+}
+
+/*Diseño para moviles*/
+@media screen and (max-width: 767px){
+    .imagen__proyecto{
+        width: 18rem;
+        height: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    .caja__proyectos--origen{
+        display: none;
+    }
+    .caja__proyectos--titulo{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .caja2{
+        display: flex;
+    }
+}

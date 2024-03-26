@@ -1,0 +1,17 @@
+.frase{
+    text-align: center;
+    padding-top: 1rem;
+    font-family: var(--letra-titulos);
+    font-size: 1.8rem;
+}
+
+.resaltado{
+    color: #660066;
+}
+
+/*Diseño desktop*/
+@media screen and (min-width: 1024px){
+    .frase{
+        text-align: end;
+    }
+}

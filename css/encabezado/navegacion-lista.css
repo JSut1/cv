@@ -1,0 +1,26 @@
+.encabezado__navegacion--items{
+    font-size: 1.6rem;
+    color: var(--color-blanco);
+    font-family: var(--letra-contenidos);
+}
+
+.encabezado__navegacion--links{
+    color: var(--color-blanco);
+    text-decoration: none;
+}
+
+/*Diseño para desktop*/
+@media screen and (min-width: 1024px){
+    .encabezado__navegacion--lista{
+        width: 100%;
+    }
+}
+
+/*Diseño para moviles*/
+@media screen and (max-width: 767px){
+    .encabezado__navegacion--items{
+        margin-top: 1.3rem;
+        border-bottom: 2px solid #9799A6;
+        transition: 5s;
+    }
+}
